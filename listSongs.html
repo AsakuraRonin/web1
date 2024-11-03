@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Songs Homepage - Welcome to My Music Store</title>
+    <style type="text/css">
+        body {
+            width: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Music Store</h1>
+    </header>
+    <main>
+        <h2>Choose a song:</h2>
+        <form action="/artist" method="get">
+            <!-- Dynamically display radio buttons for each song -->
+            <input type="radio" name="trackId" value="1"> Title: Song 1, Genre: Rock, Release Year: 1991 <br/>
+            <input type="radio" name="trackId" value="2"> Title: Song 2, Genre: Pop, Release Year: 2000 <br/>
+            <input type="radio" name="trackId" value="3"> Title: Song 3, Genre: Jazz, Release Year: 1985 <br/>
+            <input type="radio" name="trackId" value="4"> Title: Song 4, Genre: Classical, Release Year: 1970 <br/>
+            <input type="radio" name="trackId" value="5"> Title: Song 5, Genre: Blues, Release Year: 1960 <br/>
+            <br/>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
